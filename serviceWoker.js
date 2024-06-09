@@ -1,12 +1,6 @@
-const cacheName = "pwa_sample_practice-v4";
+const cacheName = "pwa_sample_html-v1";
 
-const appShellFiles = [
-  "index.html",
-  "index.tsx",
-  "App.tsx",
-  "index.css",
-  "App.css",
-];
+const appShellFiles = ["index.html"];
 
 window.addEventListener("install", (e) => {
   console.log("[Service Worker] Install");
